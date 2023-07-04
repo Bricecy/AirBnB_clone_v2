@@ -81,3 +81,8 @@ class BaseModel:
         """ delete object
         """
         models.storage.delete(self)
+
+    def delete(self):
+        """ delete object
+        """
+        models.storage.delete(self)
